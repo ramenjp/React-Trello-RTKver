@@ -17,11 +17,11 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext",
-    "baseUrl": "./src",
+    "baseUrl": "features",
     "paths": {
       "@/*": ["./*"]
     }
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts","**/*.ts", "**/*.tsx", "src/components/molecules"]
+  "include": ["next-env.d.ts","**/*.ts", "**/*.tsx", "features/components/molecules"]
 }
